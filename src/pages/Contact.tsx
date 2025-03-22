@@ -67,7 +67,7 @@ const Contact = () => {
                     <h3 className="font-bold text-lg mb-2">Our Location</h3>
                     <p className="text-muted-foreground">
                       123 Cricket Street<br />
-                      Kathmandu, Nepal
+                      Biratnagar, Nepal
                     </p>
                   </div>
                 </div>
@@ -220,9 +220,9 @@ const Contact = () => {
               
               <h2 className="text-2xl font-bold mb-6">Find Us</h2>
               <div className="rounded-lg overflow-hidden h-[300px] shadow-sm">
-                {/* Embed Google Maps iframe */}
+                {/* Updated map to Biratnagar, Nepal */}
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.27776845128!2d85.28493158324855!3d27.709856622029446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2sus!4v1686779112123!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114161.08381627265!2d87.22804449639552!3d26.45887922427563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef744704331cc5%3A0x6d88fc37d94baa18!2sBiratnagar%2C%20Nepal!5e0!3m2!1sen!2sus!4v1686779112123!5m2!1sen!2sus"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

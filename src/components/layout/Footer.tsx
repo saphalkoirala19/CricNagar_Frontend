@@ -71,6 +71,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/payment" className="opacity-80 hover:opacity-100 transition-opacity">
+                  Payment
+                </Link>
+              </li>
+              <li>
                 <Link to="/privacy-policy" className="opacity-80 hover:opacity-100 transition-opacity">
                   Privacy Policy
                 </Link>
@@ -145,7 +150,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin size={20} className="shrink-0 mt-1" />
                 <span className="opacity-80">
-                  123 Cricket Street, Kathmandu, Nepal
+                  123 Cricket Street, Biratnagar, Nepal
                 </span>
               </div>
               <div className="flex items-center space-x-3">
