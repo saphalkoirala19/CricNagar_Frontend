@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { getProductById } from '@/data/products';
@@ -128,27 +127,29 @@ const ProductDetail = () => {
         {/* Breadcrumbs */}
         <Breadcrumb className="mb-8 animate-fade-in">
           <BreadcrumbItem>
-            <BreadcrumbLink as={Link} to="/">Home</BreadcrumbLink>
+            <BreadcrumbLink href="/">Home</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator>
             <ChevronRight className="h-4 w-4" />
           </BreadcrumbSeparator>
           <BreadcrumbItem>
-            <BreadcrumbLink as={Link} to="/products">Products</BreadcrumbLink>
+            <BreadcrumbLink href="/products">Products</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator>
             <ChevronRight className="h-4 w-4" />
           </BreadcrumbSeparator>
           <BreadcrumbItem>
-            <BreadcrumbLink as={Link} to={`/products/${product.category}`}>
+            <BreadcrumbLink href={`/products/${product.category}`}>
               {getCategoryLabel(product.category)}
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator>
             <ChevronRight className="h-4 w-4" />
           </BreadcrumbSeparator>
-          <BreadcrumbItem isCurrentPage>
-            <BreadcrumbLink>{product.name}</BreadcrumbLink>
+          <BreadcrumbItem>
+            <BreadcrumbLink>
+              {product.name}
+            </BreadcrumbLink>
           </BreadcrumbItem>
         </Breadcrumb>
         
